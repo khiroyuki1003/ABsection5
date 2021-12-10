@@ -5,10 +5,10 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('I Am Poor'),
+          title: const Text('I Am Poor'),
           backgroundColor: Colors.orange[300],
         ),
-        body: Center(
+        body: const Center(
           child: Image(
             image: AssetImage('images/sekitan.jpg'),
           ),
